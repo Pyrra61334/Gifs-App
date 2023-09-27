@@ -3,9 +3,10 @@ import { Gif } from '../../interfaces/gifs.interfaces';
 
 @Component({
   selector: 'gifs-elements',
-  templateUrl: './elements.component.html',
+  templateUrl: './card-list.component.html',
 })
-export class ElementsComponent  {
+export class CardListComponent  {
+
   @Input()
   public gifs: Gif[] = [];
 }
